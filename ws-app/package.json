@@ -1,0 +1,19 @@
+{
+  "name": "ws-app",
+  "version": "0.0.1",
+  "description": "websocket implementation",
+  "main": "server.js",
+  "author": "droidmakk<droidmakk@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "websocket": "^1.0.33"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
